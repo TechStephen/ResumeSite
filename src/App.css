@@ -1,0 +1,448 @@
+html {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+/* body {
+  overflow: hidden;
+} */
+
+footer {
+  padding-top: 17px;
+  text-align: center;
+}
+
+.App {
+  background-color: white;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.Header-wrapper {
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.nav-link {
+  margin-left: 40px;
+  letter-spacing: 2px;
+}
+
+/* .nav-link:hover {
+  border-bottom: 1px solid black;
+} */
+
+.img-1 { 
+  position: relative;
+  background: url("work.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.main-info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 125px;
+  text-align: center;
+}
+
+.main-info h1 {
+  margin-left: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
+
+.typed-text { 
+  font-size: 3rem;
+}
+
+.download-button {
+  position: absolute;
+  top: 625px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+  size: 150%;
+} 
+
+.btn-outline-info {
+  letter-spacing: 2px;
+}
+
+.bip {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.icons {
+  margin-bottom: 3px;
+}
+
+.contact-icons {
+  font-size: 40px;
+}
+
+/* About */
+
+.about-img {
+  position: relative;
+  background: url("work.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.mb-3 {
+  margin-top: 40px;
+}
+
+.mb-3 .aboutme-title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.mb-3 .aboutme-text {
+  letter-spacing: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 50px;
+  padding-bottom: 25px;
+}
+
+.card-one .mb-3 {
+  position: relative;
+  margin-right: 100px;
+  width: 700px;
+  height: 100%;
+}
+
+.card-two .mb-3 {
+  position: relative;
+  width: auto;
+}
+
+.card-two-content {
+  margin-top: 13px;
+  margin-left: 20px;
+}
+
+.card-two .card-text {
+  margin-bottom: 13.5px;
+}
+
+.rounded-circle {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.aboutme-row-two {
+  padding-left: 15px;
+  padding-top: 40px;
+}
+
+.table {
+  position: relative;
+  margin-left: 15px;
+  margin-right: 130px;
+  height: 300px;
+}
+
+tr th {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+td {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 100px;
+}
+
+.frameworks {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/* Contact Page */
+
+.contact-img {
+  position: relative;
+  background: url("work.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.contact-content {
+  padding-top: 200px;
+}
+
+.contact-content h1 {
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+.mb-4 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Project Page */
+
+.background-img {
+  position: relative;
+  background: url("work.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.template-content {
+  padding-top: 50px;
+  padding-right: 20px;
+}
+
+.template-content h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.t-img-row {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.template-tb {
+  height: 300px;
+}
+
+.template-tb tbody tr td {
+  padding-top: 100px;
+  font-size: 30px
+}
+
+.t-row {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.t-row-two {
+  padding-left: 25px;
+  margin-top: -90px;
+}
+
+.t-row-two-employee {
+  padding-left: 25px;
+  margin-top: -90px;
+}
+
+.t-descript {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.template-description {
+  padding-top: 20px;
+}
+
+.emp-description {
+  padding-top: 20px;
+}
+
+.t-text {
+  letter-spacing: 4px;
+  line-height: 40px;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+/* Mobile Friendly Styling PWA */
+
+@media(max-width: 812px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .nav-link{
+    margin-left: 0;
+  }
+
+  .form-inline .btn{ 
+    visibility: hidden;
+  }
+
+  .Header-wrapper {
+    position: relative;
+    margin-top: 250px;
+  }
+
+  .download-button {
+    top: 55%;
+    position: absolute;
+  }
+
+  .main-info h1 {
+    font-size: 2rem !important;
+  }
+
+  .typed-text {
+    font-size: 1.8rem !important;
+  }
+
+  .card-one .mb-3 {
+    width: 360px;
+  }
+
+  .mb-3 .aboutme-text {
+    font-size: 0.8rem !important;
+  }
+
+  .table {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .aboutme-row-two .table {
+    margin-right: 20px;
+    width: 92%;
+  }
+
+  .about-img {
+    background: whitesmoke;
+  }
+
+  .contact-img {
+    background: whitesmoke;
+  }
+
+  .contact-content {
+    padding-top: 10px;
+  }
+
+  .contact-content h1 {
+    color: black;
+    font-weight: lighter;
+  }
+
+  .mb-4 {
+    margin-top: 20px;
+  }
+
+  .background-img {
+    background: whitesmoke;
+  }
+
+  .template-content{
+    padding-right: 20px;
+  }
+
+  .template-content h1 {
+    color: black;
+    font-weight: lighter;
+    padding-left: 12.5px;
+  }
+
+  .t-row .card {
+    margin-bottom: 60px;
+    margin-right: 5px;
+  }
+
+  .t-row-two .card {
+    margin-bottom: 60px;
+    margin-right: 5px;
+    margin-top: 100px;
+  }
+
+  .t-text{
+    letter-spacing: 0;
+    padding-top: 0;
+    line-height: 32.5px;
+    font-size: .8rem !important;
+  }
+  
+  .t-img-row img {
+    height: 250px;
+    width: 352.5px;
+    margin-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 15px;
+  }
+
+  .t-img-row  .java-img img {
+    margin-top: -10px;
+    height: 220px;
+    width: 352.5px;
+    padding-right: 5px;
+  }
+
+  .t-img-row .template-tb {
+    width: 97.5%;
+  }
+
+  br {
+    display: none;
+  }
+
+  .template-tb tbody tr td {
+    font-size: 20px;
+  }
+
+  .t-row-two-employee {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-height: 800px){
+  
+  .about-img {
+    background: url("") no-repeat;
+    background-color: whitesmoke;
+  }
+
+  .contact-img {
+    background: url("") no-repeat;
+    background-color: whitesmoke;
+  }
+
+  .contact-content h1 {
+    color: black;
+  }
+
+  .contact-content {
+    padding-top: 50px;
+  }
+
+  .background-img {
+    background: url("") no-repeat;
+    background-color: whitesmoke;
+  }
+
+  .template-content h1 {
+    color: black;
+  }
+
+}
