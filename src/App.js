@@ -53,7 +53,7 @@ const Home = () => (
     <Particle />
     <div class="img-1">
       <Headertext />
-      {/* <Download /> */}
+      <Download />
     </div>
   </>
 )

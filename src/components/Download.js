@@ -9,7 +9,7 @@ function Download() {
         <>
             <IconContext.Provider value={{ className: "icons" }}>
             <div className="download-btn-all">
-                <Link to="/Resume.pdf" target="_blank" download="Resume.pdf" className="download-button">
+                <Link to="/Resume.pdf" target="_blank" download="/Resume.pdf" className="download-button">
                     <Button variant="outline-info"><AiOutlineFileJpg />  Resume.pdf</Button>
                 </Link>
             </div>

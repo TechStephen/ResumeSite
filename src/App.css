@@ -72,7 +72,7 @@ footer {
 
 .download-button {
   position: absolute;
-  top: 625px;
+  top: 450px;
   left: 0;
   right: 0;
   text-align: center;
@@ -121,7 +121,7 @@ footer {
   letter-spacing: 2px;
   margin-left: 20px;
   margin-right: 20px;
-  line-height: 50px;
+  line-height: 45px;
   padding-bottom: 25px;
 }
 
@@ -297,11 +297,6 @@ td {
   .Header-wrapper {
     position: relative;
     margin-top: 250px;
-  }
-
-  .download-button {
-    top: 55%;
-    position: absolute;
   }
 
   .main-info h1 {

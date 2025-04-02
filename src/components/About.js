@@ -42,7 +42,7 @@ function About(){
                                     <div className="card-one" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                                         <Card className="mb-3" bg="light" text="black">
                                             <Card.Title className="aboutme-title"><FcAbout /> About Me:</Card.Title>
-                                            <Card.Text className="aboutme-text">Stephen is a Cloud and Full Stack Engineer with over half a decade of experience. He specializes in architecting scalable cloud infrastructures, automating deployments, and developing responsive web applications. With a strong background in AWS and web development, he focuses on Infrastructure as Code, Single Page Applications, CI/CD pipelines, and containerization. Stephen has worked across multiple industries, including financial services, automotive, and eCommerce.</Card.Text>
+                                            <Card.Text className="aboutme-text">Stephen is a Cloud and Full Stack Engineer with over half a decade of experience with Fortune 500 companies across Financial Services, Digital Strategy, and eCommerce. Proven expertise in Cloud and Web Development, specializing in architecting Scalable Cloud Infrastructures, implementing CI/CD pipelines, Infrastructure as Code (IaC), Containerization, and developing Responsive Web Applications. Stephen also is a 3x Professionally Certified Solutions Architect with Amazon Web Services (AWS).</Card.Text>
                                         </Card>
                                     </div>
                                 </Col>
@@ -77,7 +77,7 @@ function About(){
                                     <tr>
                                         <td colSpan="1"><div className="frameworks">Container Orchestration</div></td>
                                         <td>Ansible</td>
-                                        <td>YAML ...ref resume for more</td>
+                                        <td>YAML ...Resume for more</td>
                                     </tr>
                                 </tbody>
                                 </Table>
