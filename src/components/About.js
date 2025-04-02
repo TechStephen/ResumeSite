@@ -24,7 +24,7 @@ function About(){
                                         <Card variant="primary" className="mb-3" bg="light" text="black">
                                             <div className="card-two-content">
                                                 <Col xs={5} md={5}>
-                                                    <Image src="me2.jpg" height="165px" width="130px" roundedCircle />
+                                                    <Image src="me2.jpg" height="140px" width="130px" roundedCircle />
                                                 </Col>
                                                 <Card.Body>
                                                     <Card.Title>Stephen Schmitz</Card.Title>
@@ -42,7 +42,7 @@ function About(){
                                     <div className="card-one" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-sine">
                                         <Card className="mb-3" bg="light" text="black">
                                             <Card.Title className="aboutme-title"><FcAbout /> About Me:</Card.Title>
-                                            <Card.Text className="aboutme-text">Stephen is a Cloud and Full Stack Engineer with over half a decade of experience with Fortune 500 companies across Financial Services, Digital Strategy, and eCommerce. Proven expertise in Cloud and Web Development, specializing in architecting Scalable Cloud Infrastructures, implementing CI/CD pipelines, Infrastructure as Code (IaC), Containerization, and developing Responsive Web Applications. Stephen also is a 3x Professionally Certified Solutions Architect with Amazon Web Services (AWS).</Card.Text>
+                                            <Card.Text className="aboutme-text">Stephen is a Cloud and Full Stack Engineer with over half a decade of experience with Fortune 500 companies across Financial Services, Digital Strategy, and eCommerce. Proven expertise in Cloud and Web Development, specializing in architecting Scalable Cloud Infrastructures, implementing CI/CD pipelines, Infrastructure as Code, Containerization, and developing Responsive Web Applications. Stephen is also a 3x Professionally Certified Solutions Architect with Amazon Web Services.</Card.Text>
                                         </Card>
                                     </div>
                                 </Col>
