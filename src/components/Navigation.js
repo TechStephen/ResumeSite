@@ -29,7 +29,7 @@ function Navigation() {
             </Nav>
             <Form inline>
               <Button variant="outline-info">
-                <a href="mailto:stephenschmitz518@gmail.com">Let's Connect  <FaHandshake /></a>
+                <a href="https://www.linkedin.com/in/stephen-schmitz-b365bb34a" target="_blank" rel="noopener noreferrer">Let's Connect  <FaHandshake /></a>
               </Button>
             </Form>
             </Navbar.Collapse>

@@ -24,13 +24,13 @@ function About(){
                                         <Card variant="primary" className="mb-3" bg="light" text="black">
                                             <div className="card-two-content">
                                                 <Col xs={5} md={5}>
-                                                    <Image src="me2.jpg" height="140px" width="130px" roundedCircle />
+                                                    <Image src="PP.jpg" height="140px" width="130px" roundedCircle />
                                                 </Col>
                                                 <Card.Body>
                                                     <Card.Title>Stephen Schmitz</Card.Title>
                                                     <Card.Subtitle className="mb-2"><i>Full-Stack & Infrastructure Engineer</i></Card.Subtitle>
                                                     <Card.Text><FcGraduationCap /> Education: The University of North Carolina at Charlotte</Card.Text>
-                                                    <Card.Text><FcHome />  Resides: Charlotte, NC</Card.Text>
+                                                    <Card.Text><FcHome />  Resides: Raleigh, NC</Card.Text>
                                                     <Card.Text><FcBusinessman />  Focus: Cloud/DevOps</Card.Text>
                                                 </Card.Body>
                                             </div>
